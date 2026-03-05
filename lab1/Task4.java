@@ -16,6 +16,7 @@ public class Task4 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int m = sc.nextInt();
+        sc.close();
         System.out.println(f(m, n));
     }
 }

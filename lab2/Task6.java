@@ -15,6 +15,7 @@ public class Task6 {
         Scanner sc = new Scanner(System.in);
         int m = sc.nextInt();
         int n = sc.nextInt();
+        sc.close();
 
         int minSum = 100;
         int count = 0;

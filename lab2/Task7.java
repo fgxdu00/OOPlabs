@@ -6,6 +6,7 @@ public class Task7 {
         long x = sc.nextLong();
         long n = sc.nextLong();
         long m = sc.nextLong();
+        sc.close();
 
         long result = 1;
         x = x % m;

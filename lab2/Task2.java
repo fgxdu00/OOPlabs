@@ -20,6 +20,7 @@ public class Task2 {
             long x = sc.nextLong();
             result = gcd(result, x);
         }
+        sc.close();
 
         System.out.println(result);
     }

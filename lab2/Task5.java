@@ -19,6 +19,7 @@ public class Task5 {
         for (int i = 0; i < n; i++) {
             a[i] = sc.nextInt();
         }
+        sc.close();
 
         int minSum = digitSum(a[0]);
         int result = a[0];

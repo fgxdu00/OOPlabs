@@ -5,6 +5,7 @@ public class Task5 {
         Scanner sc = new Scanner(System.in);
         long x = sc.nextLong();
         long n = sc.nextLong();
+        sc.close();
 
         long result = 1;
         for (long i = 0; i < n; i++) {

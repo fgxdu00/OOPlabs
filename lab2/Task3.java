@@ -4,6 +4,7 @@ public class Task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        sc.close();
 
         // F(0) = 1, F(1) = 1
         if (n == 0 || n == 1) {

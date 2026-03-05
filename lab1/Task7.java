@@ -18,6 +18,7 @@ public class Task7 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int k = sc.nextInt();
+        sc.close();
         System.out.println(combinations(n, k));
     }
 }

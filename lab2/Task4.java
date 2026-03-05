@@ -25,5 +25,6 @@ public class Task4 {
             long n = sc.nextLong();
             System.out.println(id + " " + findMax(n));
         }
+        sc.close();
     }
 }

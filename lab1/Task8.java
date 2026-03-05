@@ -15,6 +15,7 @@ public class Task8 {
         Scanner sc = new Scanner(System.in);
         long a = sc.nextLong();
         long b = sc.nextLong();
+        sc.close();
         System.out.println(gcd(a, b));
     }
 }

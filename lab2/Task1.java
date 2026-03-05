@@ -12,7 +12,6 @@ public class Task1 {
     }
 
     static long lcm(long a, long b) {
-        // НОК = (a * b) / НОД, но сначала делим чтобы не переполниться
         return (a / gcd(a, b)) * b;
     }
 
@@ -20,6 +19,7 @@ public class Task1 {
         Scanner sc = new Scanner(System.in);
         long a = sc.nextLong();
         long b = sc.nextLong();
+        sc.close();
         System.out.println(lcm(a, b));
     }
 }
